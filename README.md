@@ -36,7 +36,7 @@ const privateKey= process.env.NEXT_PUBLIC_PRIVATE_KEY
 module.exports = {
     solidity: "0.8.4",
     networks: {
-        goerli: {
+        ropsten: {
             url:process.env.NEXT_PUBLIC_RPC_URL,
             accounts: [privateKey],
         },
